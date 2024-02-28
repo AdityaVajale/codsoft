@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya-Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    body {
+      background-color: rgb(0, 0, 55);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-self: center;
+      height: 90px;
+      background-color: rgb(46, 46, 166)
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: centre;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: rgb(145, 145, 211);
+      font-size: 1.1rem;
+
+    }
+
+    .left {
+      font-size: 3rem;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: centre;
+      margin: 100px 0;
+    }
+
+    .firstsection>div {
+      width: 30%;
+    }
+
+    .leftsection {
+      font-size: 4rem;
+      margin: 30px 0;
+    }
+
+    .leftsection.btn {
+      padding: 12px;
+      background: #782a78;
+      color: white;
+      border: 2px solid white;
+      border-radius: 20px;
+      font-size: 21px;
+      cursor: pointer;
+
+    }
+
+    .rightsection img {
+      width: 100%;
+
+    }
+
+    .purple {
+      color: rgb(134, 63, 201);
+    }
+
+    #element {
+      color: rgb(127, 127, 219);
+    }
+
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+    }
+
+    .thirdsection {
+      max-width: 80vw;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Aditya Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Skills</a></li>
+          <li><a href="/">Contant Me</a></li>
+
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi,My name is <span class="purple">Aditya Vajale</span>
+        <div>and I'm Passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+      </div>
+      <div class="rightsection">
+        <img src="bgm.png2.webp" alt="">
+      </div>
+    </section>
+    <hr>
+    <section class="secondsection">
+      <h1>About me:</h1>
+      <p class="lead-para">
+        I'm a undergraduate student currently studying in third year (Computer Engineering) at P K Technical
+        Campus. I have very well knowledge of basic programming languages like C and C++. Also I have studied
+        basic python programming language. HTML, CSS and Javascript are my main skills which i have to learn
+        more and explore through this internship.
+      </p>
+      </div>
+    </section>
+    <section class="thirdsection">
+      <section class="Skills" id="Skills">
+        <div class="Skills-heading">
+          <h1 class="my-heading text-center">My Skills:</h1>
+        </div>
+        <p class="lead-para">
+          Very well knowledge of programming languages like C and C++. Also have basic knowledge of python
+          language. Also have knowledge of web development languages like HTML,CSS and Javascript. Can build a
+          common small website.Passionate about my work.
+        </p>
+        </div>
+      </section>
+      <!-- Contact me section -->
+      <section class="contact" id="contact">
+        <div class="contact-heading">
+          <h1 class="my-heading text-center">Contact Me-</h1>
+        </div>
+        <div class="contact-content">
+          <div class="contact-form-container">
+            <h1 class="greet-heading">Get In Touch:</h1>
+            <form class="contact-form">
+              <input class="form-controls" type="text" placeholder="Your Name">
+              <input class="form-controls" type="text" placeholder="Your Email">
+              <input class="form-controls" type="text" placeholder="Your Phone">
+              <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30" rows="5">
+                      </textarea>
+              <input class="form-btn btn common-btn" type="submit" value="Send Message">
+            </form>
+          </div>
+          <div class="contact-details">
+            <h1 class="greet-heading">My Contact Details</h1>
+            <div class="details">
+              <h5 class="contact-heading">EMAIL</h5>
+              <p class="contact-text">adityavajale6@gmail.com</p>
+            </div>
+            <div class="details">
+              <h5 class="contact-heading">PHONE</h5>
+              <p class="contact-text">+91 7972503835</p>
+            </div>
+            <div class="details">
+              <h5 class="contact-heading">ADDRESS</h5>
+              <p class="contact-text">thergoan, Pune </p>
+              <p>Ashoka society,108/A</p>
+              <p>near vengsarkar academy, lane-16.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer &', 'Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
